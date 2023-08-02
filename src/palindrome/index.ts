@@ -6,6 +6,7 @@ import { validWords } from '../utils';
 const prompt = promptSync();
 
 function execute() {
+   logger.info('start proccess');
    const word = prompt('Type the word you want to know if it is a palindrome: ');
 
    validWords(word);
@@ -18,6 +19,7 @@ function execute() {
    }
 
    logger.info(`the word ${word} is not a palindrome`);
+   logger.info('end proccess');
 }
 
 execute();

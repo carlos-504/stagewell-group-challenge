@@ -6,6 +6,7 @@ import { validInputNumber } from '../utils';
 const prompt = promptSync();
 
 function execute() {
+   logger.info('start proccess');
    const operations = ['+', '-', '*', '/'];
    const operator = prompt('Type the operation you want (+, -, *, /): ');
    if (!operations.includes(operator)) {
@@ -23,7 +24,7 @@ function execute() {
 
    const result = simpleCalculator(operator, parseFirstNumber, parseSecondNumber);
    logger.info(`Result: ${result}`);
-   return;
+   logger.info('end proccess');
 }
 
 execute();

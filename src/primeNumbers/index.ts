@@ -7,6 +7,7 @@ import logger from '../config/logger';
 const prompt = promptSync();
 
 function execute() {
+   logger.info('start proccess');
    const num = prompt('Type the number you want: ');
    const parseNumber = parseFloat(num);
 
@@ -19,6 +20,7 @@ function execute() {
    }
 
    getTenPrimes(10);
+   logger.info('end proccess');
 }
 
 execute();
