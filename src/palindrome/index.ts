@@ -6,7 +6,7 @@ import { validWords } from '../utils';
 const prompt = promptSync();
 
 function execute() {
-   const word = prompt('Enter the number you want to know the factorial: ');
+   const word = prompt('Type the word you want to know if it is a palindrome: ');
 
    validWords(word);
 
