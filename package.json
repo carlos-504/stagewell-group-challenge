@@ -10,7 +10,8 @@
     "factorial": "tsnd src/factorial/index.ts",
     "palindrome": "tsnd src/palindrome/index.ts",
     "table": "tsnd src/table/index.ts",
-    "count-vowels": "tsnd src/countVowels/index.ts"
+    "count-vowels": "tsnd src/countVowels/index.ts",
+    "grade-average": "tsnd src/gradeAverage/index.ts"
   },
   "keywords": [],
   "author": "",
