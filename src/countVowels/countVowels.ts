@@ -1,6 +1,6 @@
 import logger from '../config/logger';
 
-export function countVowels(word: string) {
+export function countVowels(word: string): void {
    logger.info('counting vowels');
    const volwelsWord = word.match(/[aeiou]/gi)?.length || 0;
    logger.info('completed vowel count');

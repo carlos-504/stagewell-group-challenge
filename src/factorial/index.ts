@@ -5,7 +5,7 @@ import logger from '../config/logger';
 
 const prompt = promptSync();
 
-function execute() {
+function execute(): void {
    logger.info('start proccess');
 
    const num = prompt('Enter the number you want to know the factorial: ');

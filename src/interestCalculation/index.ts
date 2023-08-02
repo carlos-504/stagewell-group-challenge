@@ -5,7 +5,7 @@ import { calculateInterest } from './interestCalculation';
 
 const prompt = promptSync();
 
-function execute() {
+function execute(): void {
    logger.info('start proccess');
 
    const initialCap = prompt('Enter the starting capital amount: ');

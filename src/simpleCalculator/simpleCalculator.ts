@@ -1,4 +1,4 @@
-const division = (a: number, b: number) => {
+const division = (a: number, b: number): number | string => {
    if (b === 0) {
       return 'Impossible to divide by zero';
    }
@@ -6,7 +6,7 @@ const division = (a: number, b: number) => {
    return a / b;
 };
 
-export function simpleCalculator(operation: string, a: number, b: number) {
+export function simpleCalculator(operation: string, a: number, b: number): number | string {
    switch (operation) {
       case '+':
          return a + b;

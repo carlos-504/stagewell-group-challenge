@@ -5,7 +5,7 @@ import { gradeAverage } from './gradeAverage';
 
 const prompt = promptSync();
 
-function execute() {
+function execute(): void {
    logger.info('start proccess');
    const scores: number[] = [];
 

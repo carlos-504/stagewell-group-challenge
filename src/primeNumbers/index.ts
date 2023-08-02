@@ -6,7 +6,7 @@ import logger from '../config/logger';
 
 const prompt = promptSync();
 
-function execute() {
+function execute(): void {
    logger.info('start proccess');
    const num = prompt('Type the number you want: ');
    const parseNumber = parseFloat(num);

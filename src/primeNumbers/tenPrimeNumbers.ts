@@ -1,7 +1,7 @@
 import logger from '../config/logger';
 import { primeNumber } from './primeNumbers';
 
-export function getTenPrimes(n: number) {
+export function getTenPrimes(n: number): void {
    const primes: number[] = [];
    let currentNumber = 2;
 

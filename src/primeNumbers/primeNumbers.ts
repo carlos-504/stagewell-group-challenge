@@ -1,4 +1,4 @@
-export function primeNumber(value: number) {
+export function primeNumber(value: number): boolean {
    if (value <= 1) {
       return false;
    }

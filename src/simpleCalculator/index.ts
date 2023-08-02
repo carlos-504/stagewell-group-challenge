@@ -5,7 +5,7 @@ import { validInputNumber } from '../utils';
 
 const prompt = promptSync();
 
-function execute() {
+function execute(): void {
    logger.info('start proccess');
    const operations = ['+', '-', '*', '/'];
    const operator = prompt('Type the operation you want (+, -, *, /): ');

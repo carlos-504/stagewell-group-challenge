@@ -1,6 +1,6 @@
 import logger from "../config/logger";
 
-export function calculateFactorial(num: number) {
+export function calculateFactorial(num: number): number {
    if (num < 0) {
       throw new Error('the number cannot be negative');
    }

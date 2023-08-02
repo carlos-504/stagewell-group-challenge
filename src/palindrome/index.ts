@@ -5,7 +5,7 @@ import { validWords } from '../utils';
 
 const prompt = promptSync();
 
-function execute() {
+function execute(): void {
    logger.info('start proccess');
    const word = prompt('Type the word you want to know if it is a palindrome: ');
 
