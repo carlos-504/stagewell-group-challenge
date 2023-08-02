@@ -1,6 +1,7 @@
 import * as promptSync from 'prompt-sync';
 import logger from '../config/logger';
 import { simpleCalculator } from './simpleCalculator';
+import { validInputNumber } from '../utils';
 
 const prompt = promptSync();
 
@@ -12,19 +13,15 @@ function execute() {
       return;
    }
 
-   const a = parseFloat(prompt('Type the first number: '));
-   if (Number.isNaN(a)) {
-      logger.error(`${a} is not a number`);
-      return;
-   }
+   const a = prompt('Type the first number: ');
+   const parseFirstNumber = parseFloat(a);
+   validInputNumber(a, parseFirstNumber);
 
-   const b = parseFloat(prompt('Type the second number: '));
-   if (Number.isNaN(b)) {
-      logger.error(`${b} is not a number`);
-      return;
-   }
+   const b = prompt('Type the second number: ');
+   const parseSecondNumber = parseFloat(b);
+   validInputNumber(b, parseSecondNumber);
 
-   const result = simpleCalculator(operator, a, b);
+   const result = simpleCalculator(operator, parseFirstNumber, parseSecondNumber);
    logger.info(`Result: ${result}`);
    return;
 }
