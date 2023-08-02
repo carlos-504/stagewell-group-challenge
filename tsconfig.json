@@ -70,6 +70,6 @@
       "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */
    },
    "exclude": ["node_modules"],
-   "include": ["src/**/*", "server.ts", "test"]
+   "include": ["src/**/*", "utils.ts"]
    // "assets": ["src/**/**/*.csv"]
 }
