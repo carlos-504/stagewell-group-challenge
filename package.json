@@ -9,7 +9,8 @@
     "prime-number": "tsnd src/primeNumbers/index.ts",
     "factorial": "tsnd src/factorial/index.ts",
     "palindrome": "tsnd src/palindrome/index.ts",
-    "table": "tsnd src/table/index.ts"
+    "table": "tsnd src/table/index.ts",
+    "count-vowels": "tsnd src/countVowels/index.ts"
   },
   "keywords": [],
   "author": "",
