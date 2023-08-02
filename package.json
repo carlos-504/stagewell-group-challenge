@@ -11,7 +11,8 @@
     "palindrome": "tsnd src/palindrome/index.ts",
     "table": "tsnd src/table/index.ts",
     "count-vowels": "tsnd src/countVowels/index.ts",
-    "grade-average": "tsnd src/gradeAverage/index.ts"
+    "grade-average": "tsnd src/gradeAverage/index.ts",
+    "interest-calculation": "tsnd src/interestCalculation/index.ts"
   },
   "keywords": [],
   "author": "",
