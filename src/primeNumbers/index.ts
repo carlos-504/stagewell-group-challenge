@@ -1,4 +1,4 @@
-import * as promptSync from 'prompt-sync';
+import promptSync from 'prompt-sync';
 import { validInputNumber } from '../utils';
 import { primeNumber } from './primeNumbers';
 import { getTenPrimes } from './tenPrimeNumbers';

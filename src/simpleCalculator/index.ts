@@ -1,4 +1,4 @@
-import * as promptSync from 'prompt-sync';
+import promptSync from 'prompt-sync';
 import logger from '../config/logger';
 import { simpleCalculator } from './simpleCalculator';
 import { validInputNumber } from '../utils';
